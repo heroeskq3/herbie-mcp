@@ -1,0 +1,9 @@
+# Metadatos OAuth del MCP: públicos (no tienen datos). Se generan con el host real de la app en mcp/metadata.php.
+<FilesMatch "^(oauth-protected-resource|oauth-authorization-server)">
+    Satisfy Any
+    Order allow,deny
+    Allow from all
+    Require all granted
+</FilesMatch>
+RewriteEngine On
+RewriteRule ^oauth-(protected-resource|authorization-server)(/.*)?$ /mcp/metadata.php?doc=$1 [L,QSA]
