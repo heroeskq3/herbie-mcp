@@ -30,6 +30,13 @@ No es otra IA: aprovecha el potencial agéntico de Claude y ChatGPT y les provee
 
 Punto de partida y bitácora: ver `docs/`.
 
+## Nuevos indicadores y orquestación MCP
+
+- [Estado de la Nación y BCCR](docs/indicadores-inversion.md): herramientas, fuentes, acceso y límites. PEN permite buscar y leer publicaciones; BCCR requiere token propio para consultar sus series SDDE.
+- [Orquestación MCP actualizada](docs/orquestacion-mcp.md): selección de fuentes, reglas de comparación, cruce jurídico y generación de Artifacts a petición del usuario.
+
+Estos indicadores son insumos para el análisis del asistente cliente; el MCP no genera pronósticos ni recomendaciones. La consulta BCCR autenticada continúa pendiente de credencial válida.
+
 ## Cómo usarlo
 1. Entrar a https://mcp.herbieai.app/ y crear una cuenta.
 2. En **Conectores → MCP**, conectar Claude o ChatGPT.
