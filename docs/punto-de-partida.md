@@ -6,4 +6,7 @@
 - 16 conectores jurídicos disponibles (PJ, Nexus, La Gaceta, SINALEVI, TSE, entre otros).
 
 Commit o versión inicial: PENDIENTE
-Capturas iniciales: PENDIENTE
+Capturas del prototipo (tomadas el 22/11/2026, durante el evento; no son previas al 20/11):
+
+![Conectores - fuentes juridicas](capturas/01-conectores-fuentes-juridicas.png)
+![Conectores - catalogo](capturas/02-conectores-catalogo.png)
