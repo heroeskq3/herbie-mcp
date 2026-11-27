@@ -1,0 +1,7 @@
+{
+  "resource": "https://pj.herbieai.app/mcp/",
+  "authorization_servers": ["https://pj.herbieai.app"],
+  "scopes_supported": ["mcp"],
+  "bearer_methods_supported": ["header"],
+  "resource_name": "Mis expedientes (PDJENLINEA)"
+}

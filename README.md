@@ -41,4 +41,8 @@ Punto de partida y bitácora: ver `docs/`.
 - **Juan Carlos Campos** · abogado; zonas francas, franquicias y compras; especialista y promotor de la iniciativa.
 
 ## Alcance de este repositorio
-Repositorio público de la entrega del hackathon: documentación, Skills & Rules y evidencia del evento. El código del servidor de Herbie MCP se mantiene en un repositorio privado.
+Repositorio público de la entrega del hackathon: documentación, Skills & Rules, evidencia del evento y la carpeta `server/`.
+
+> **Aclaratoria:** `server/` es una **extensión de Herbie MCP**. Por motivos de seguridad se publica **solo una parte** del servidor: la estructura de conexión MCP (JSON-RPC, OAuth y metadatos) y los conectores nuevos del hackathon (Transparencia PJ, GICA, Estado de la Nación y BCCR). El resto del servidor se mantiene en un repositorio privado.
+>
+> Presentación del Dojo en HTML: `docs/presentacion/index.html`.

@@ -1,0 +1,10 @@
+# Servidor MCP (index.php) y su OAuth (oauth.php): fuera de la contraseña del sitio, en carpeta propia porque dentro
+# de la zona protegida LiteSpeed reemplaza el WWW-Authenticate del 401. index.php exige su token (Authorization:
+# Bearer) y oauth.php pide el usuario y la contraseña del sitio. Llaves y tokens: ~/pdj-sync/mcp/.
+AuthType None
+Satisfy Any
+Order allow,deny
+Allow from all
+Require all granted
+DirectoryIndex index.php
+SetEnvIf Authorization "(.+)" HTTP_AUTHORIZATION=$1
